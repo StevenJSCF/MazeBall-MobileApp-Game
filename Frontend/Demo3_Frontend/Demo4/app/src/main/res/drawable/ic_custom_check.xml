@@ -1,0 +1,21 @@
+<!-- res/drawable/ic_custom_check.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+
+    <!-- Background rectangle with green color -->
+    <group>
+        <path
+            android:fillColor="#009C00"
+            android:pathData="M0,0h24v24H0z" /> <!-- Rectangle covering the entire viewport -->
+
+        <!-- Your existing path for the check icon -->
+        <path
+            android:strokeColor="#000000"
+            android:strokeWidth="3"
+            android:pathData="M9,16.17L4.83,12l-1.42,1.41L9,19 21,7l-1.41,-1.41z" />
+    </group>
+</vector>
+

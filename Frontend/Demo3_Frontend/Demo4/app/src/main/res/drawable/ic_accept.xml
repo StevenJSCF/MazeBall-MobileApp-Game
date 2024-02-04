@@ -1,0 +1,21 @@
+<!-- res/drawable/ic_accept.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Transparent background -->
+    <item android:drawable="@android:color/transparent" />
+
+    <!-- Square background -->
+    <item
+        android:width="48dp"
+        android:height="48dp"
+        android:drawable="@color/accept_color"
+        android:gravity="center" />
+
+    <!-- Check mark in the middle -->
+    <item
+        android:width="24dp"
+        android:height="24dp"
+        android:drawable="@drawable/ic_custom_check"
+        android:gravity="center" />
+
+</layer-list>

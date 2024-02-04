@@ -1,0 +1,81 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Background map -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M2,2 L22,2 L22,22 L2,22 Z"/>
+
+    <!-- Puzzle-like missing pieces -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M2,4 L8,4 L8,10 L2,10 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M2,10 L10,10 L10,18 L2,18 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,4 L22,4 L22,10 L14,10 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,10 L22,10 L22,18 L14,18 Z"/>
+
+    <!-- Marble path -->
+    <path
+        android:fillColor="#FF4081"
+        android:pathData="M8,4 L14,4 L14,18 L8,18 Z"/>
+
+    <!-- Small round marbles -->
+    <item
+        android:left="7dp"
+        android:right="9dp"
+        android:top="6dp"
+        android:bottom="8dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFC107"/>
+            <size
+                android:width="2dp"
+                android:height="2dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="11dp"
+        android:right="13dp"
+        android:top="10dp"
+        android:bottom="12dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFC107"/>
+            <size
+                android:width="2dp"
+                android:height="2dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="15dp"
+        android:right="17dp"
+        android:top="6dp"
+        android:bottom="8dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFC107"/>
+            <size
+                android:width="2dp"
+                android:height="2dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="19dp"
+        android:right="21dp"
+        android:top="10dp"
+        android:bottom="12dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFC107"/>
+            <size
+                android:width="2dp"
+                android:height="2dp"/>
+        </shape>
+    </item>
+
+</vector>

@@ -1,0 +1,7 @@
+
+    <!-- res/drawable/button_pressed.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="#1E1E1E"/> <!-- Set your pressed button background color -->
+        <corners android:radius="8dp"/> <!-- Adjust the corner radius -->
+    </shape>
+

@@ -1,0 +1,17 @@
+<!-- res/drawable/ic_notification.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+
+    <!-- Circle background -->
+    <path
+        android:fillColor="#0E0E0E"
+        android:pathData="M12,2c5.52,0 10,4.48 10,10s-4.48,10 -10,10s-10,-4.48 -10,-10s4.48,-10 10,-10Z" />
+
+    <!-- Exclamation mark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11,7h2v4h-2zm0,6h2v2h-2z"/>
+</vector>

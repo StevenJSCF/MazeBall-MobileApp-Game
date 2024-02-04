@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sumon.androidvolley"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:6:5-26:19
+14        android:name="com.example.sumon.androidvolley.app.AppController"
+14-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:8:9-73
+15        android:allowBackup="true"
+15-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:9:9-35
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:14:9-40
+23        android:usesCleartextTraffic="true" >
+23-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:7:9-44
+24        <activity
+24-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:15:9-22:20
+25            android:name="com.example.sumon.androidvolley.MainActivity"
+25-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:15:19-47
+26            android:exported="true" >
+26-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:16:13-36
+27            <intent-filter>
+27-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:18:17-69
+28-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:20:17-77
+30-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.example.sumon.androidvolley.StringRequestActivity" />
+33-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:23:9-59
+33-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:23:19-56
+34        <activity android:name="com.example.sumon.androidvolley.JsonRequestActivity" />
+34-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:24:9-57
+34-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:24:19-54
+35        <activity android:name="com.example.sumon.androidvolley.ImageRequestActivity" />
+35-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:25:9-67
+35-->/Users/wanghongwei/Desktop/D1/km_202/Experiments/Hongwei/AndroidVolley/app/src/main/AndroidManifest.xml:25:19-55
+36
+37        <meta-data
+37-->[com.android.support:appcompat-v7:26.1.0] /Users/wanghongwei/.gradle/caches/transforms-3/264020fbd2f5e739e8d8ceb1efd6e997/transformed/appcompat-v7-26.1.0/AndroidManifest.xml:26:9-28:38
+38            android:name="android.support.VERSION"
+38-->[com.android.support:appcompat-v7:26.1.0] /Users/wanghongwei/.gradle/caches/transforms-3/264020fbd2f5e739e8d8ceb1efd6e997/transformed/appcompat-v7-26.1.0/AndroidManifest.xml:27:13-51
+39            android:value="26.1.0" />
+39-->[com.android.support:appcompat-v7:26.1.0] /Users/wanghongwei/.gradle/caches/transforms-3/264020fbd2f5e739e8d8ceb1efd6e997/transformed/appcompat-v7-26.1.0/AndroidManifest.xml:28:13-35
+40        <meta-data
+40-->[android.arch.lifecycle:runtime:1.0.0] /Users/wanghongwei/.gradle/caches/transforms-3/f048edf5609ca41b9dbcb56a044bf17b/transformed/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+41            android:name="android.arch.lifecycle.VERSION"
+41-->[android.arch.lifecycle:runtime:1.0.0] /Users/wanghongwei/.gradle/caches/transforms-3/f048edf5609ca41b9dbcb56a044bf17b/transformed/runtime-1.0.0/AndroidManifest.xml:26:13-58
+42            android:value="27.0.0-SNAPSHOT" />
+42-->[android.arch.lifecycle:runtime:1.0.0] /Users/wanghongwei/.gradle/caches/transforms-3/f048edf5609ca41b9dbcb56a044bf17b/transformed/runtime-1.0.0/AndroidManifest.xml:27:13-44
+43    </application>
+44
+45</manifest>

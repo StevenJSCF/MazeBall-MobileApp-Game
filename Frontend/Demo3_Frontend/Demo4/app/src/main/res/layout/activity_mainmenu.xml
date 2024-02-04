@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainMenu">
+
+    <!-- Your layout XML -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:layout_alignParentTop="true"/>
+    <Button
+        android:id="@+id/btnStartLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Level"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_button_primary"
+        android:textColor="@android:color/white"
+        android:animation="@anim/button_scale"
+        />
+
+    <Button
+        android:id="@+id/btnEditLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Level"
+        android:layout_below="@id/btnStartLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button_secondary"
+        android:textColor="@android:color/white"
+        android:animation="@anim/button_scale"
+        />
+    <!-- Add similar onClick and animation attributes to other buttons -->
+
+
+    <Button
+        android:id="@+id/btnLoadLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Level"
+        android:layout_below="@id/btnEditLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button_secondary"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/btnUserActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Activity"
+        android:layout_below="@id/btnLoadLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button_primary"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnLeaderboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leaderboard"
+        android:layout_below="@id/btnUserActivity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button_primary"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maze Ball Game"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="228dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Marble Maze Game" />
+
+
+</RelativeLayout>

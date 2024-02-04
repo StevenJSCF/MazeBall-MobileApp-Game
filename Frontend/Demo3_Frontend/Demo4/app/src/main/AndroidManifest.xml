@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            >
+
+        </activity>
+
+
+        <activity
+            android:name=".LevelScreen"
+            android:exported="true"
+            android:label="back"
+            >
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:exported="true"
+            android:label="Logout"
+            >
+        </activity>
+        <activity
+            android:name=".LevelEditor"
+            android:exported="true"
+            android:label="back"
+            >
+        </activity>
+
+       <activity
+        android:name=".LevelList"
+        android:exported="true"
+           android:label="back"
+           >
+
+    </activity>
+        <activity
+            android:name=".InventoryActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".StoreActivity"
+            android:exported="true"
+            android:label="@string/title_activity_store"
+
+            android:theme="@style/Theme.MyApplication" />
+
+        <activity
+            android:name=".AccountActivity"
+            android:exported="true"
+            android:label="back"
+
+            android:theme="@style/Theme.MyApplication" />
+
+        <activity
+            android:name=".FriendListActivity"
+            android:exported="true"
+            android:label="back"
+
+            android:theme="@style/Theme.MyApplication" />
+
+        <activity
+            android:name=".MainScreenActivity"
+            android:exported="true"
+            android:label="back"
+
+            android:theme="@style/Theme.MyApplication" />
+
+        <activity
+            android:name=".FriendChatActivivty"
+            android:exported="true"
+            android:label="back"
+            android:theme="@style/Theme.MyApplication" />
+
+        <activity
+            android:name=".GroupChatActivity"
+            android:exported="true"
+            android:label="back"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".LeaderBoard"
+            android:exported="true"
+            android:label=""
+            android:theme="@style/Theme.MyApplication" />
+
+        <service android:name=".MyBackgroundService" />
+
+
+
+        <activity
+            android:name=".FAccountActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication" />
+
+
+
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication" />
+
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication" />
+
+
+
+        <activity
+            android:name=".UserSelectActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication" />
+
+
+
+    </application>
+
+</manifest>
